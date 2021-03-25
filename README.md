@@ -3,14 +3,14 @@
 ## Task 3.a.
 
 1. Class Student
-<br>
+
 * For the updateName method it is better to use the setter method setFirstName to assign
   the first name for reducing code repetition/duplication.
 * Add another setter method setLastName like the setter method setFirstName for the code
   readability and efficiency.
-</br>
+
 2. Class StudentListener
-<br>
+
 * Use StudentListener() as a constructor which instantiate student instead of using 
   StudentListener(Student s) this is because of memory management, time consumption 
   and constructor overloading.
@@ -19,7 +19,7 @@
   only the name.
 * Remove the method updateName(String firstName, String lastname) and use the method 
   updateDetails instead because of code repetition/duplication.
-</br>
+
 ## Task 3.b.
 
 By using the command "git log" there was only 1 commit made each for both branches which are:
